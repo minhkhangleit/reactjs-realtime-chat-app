@@ -1,0 +1,279 @@
+
+.namewrapper {
+   background-color: #1d6feb;
+   margin: 0 auto;
+   margin-top: 80px;
+   height: 300px;
+   width: 700px;
+   border: 5px solid black;
+   position: relative;
+  
+}
+
+.brandtext{
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+#namebox{ 
+    height: 30px;
+    font-size: 20px; 
+    display: block;
+    margin : 0 auto;
+    text-align: center;
+    color: grey;
+    border: 2px solid white;
+}
+
+
+
+.enterbox{
+    text-align: center;
+}
+
+.navbar.main{
+    height: 80px;
+    background: #1d6feb;
+}
+
+
+#enterbutton{
+    margin-top: 50px;
+    height: 70px;
+    width: 120px;
+    font-size: 2em;
+    color: white;
+    background-color: #1d6feb;
+}
+
+.container-fluid{
+    background-color: #1d6feb;
+}
+
+.chatroom{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#box{
+  height: 500px;
+  width: 400px;
+  background-color: #1d6feb;
+  position: relative;
+  border: 3px solid orange;
+  overflow:scroll;
+  
+}
+
+.commbox{
+    margin-top: 20px;
+    margin-left: 35px;
+    
+}
+
+
+.onlineuserwindow{
+    height: 100px;
+    width: 300px;
+    background-color: lightgray;
+    position: relative;
+   margin-left: 430px; 
+    margin-top: -545px;
+    margin-right: 100px;
+    overflow:scroll;
+}
+
+#msg{
+   color: #1d6feb;
+   border: 1px solid orange;
+}
+
+#sendbutton {
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+}
+
+
+
+.onlinedot{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+    
+}
+
+#onlineusers{ 
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+#textbox {
+    float: left;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 5px;
+}
+
+#historyshow{
+    margin-left: 430px; 
+    width: 300px;
+    background-color: #1d6feb;
+    color: white;
+}
+
+.historysection {
+    margin-top: 10px;
+margin-left: 430px;
+display: none;
+}
+
+
+
+#historyfeed{
+    padding-left: 8px;
+    height: 330px;
+    width: 300px;
+    background-color: orange;
+    overflow:scroll;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#hidehistory{
+    width: 300px;
+    background-color: #1d6feb;
+    color: white;
+}
+
+
+#historyfilter{
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 600px) { /*mobile view*/ 
+    
+    
+    .namewrapper {
+        background-color: #1d6feb;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    #namebox{
+        display: block;
+        margin : 0 auto;
+        text-align: center;
+        margin-top: 20px; 
+        height: 30px;
+        font-size: 13px; 
+        width: 200px;
+    }
+    #enterbutton{
+        margin-top: 30px;
+        font-size: 1.5em;
+        height: 50px;
+        width: 100px;
+        background-color: #1d6feb;
+    }
+
+    .btn-lg{
+        background: #1d6feb;
+    }
+
+    .brandtext{
+        font-size: 1.8em; 
+    }
+    
+    .onlineuserwindow{
+        height: 70px;
+        width: 280px;
+        background-color: lightgray;
+        margin-top: -20px;
+        z-index: -1;
+    
+    }
+
+    #box{
+        height: 200px;
+        width: 280px;
+        z-index: 1;
+        margin-top: 88px;
+        margin-left: -40px;
+    }
+  
+    #textbox{
+        margin-top: 0px;
+        z-index: -1;
+        
+    }
+
+    #msg{
+        margin-top: 0px;
+        margin-left: -75px;
+        margin-bottom: 5px;
+        width: 280px;
+    }
+    
+    #sendbutton{
+        width: 280px;
+        font-size: 1em;
+        margin-left: -75px;
+    }
+
+    .commbox{
+        margin-left: 35px;
+
+    }
+
+    .onlineuserwindow{
+        margin-left: -40px; 
+        margin-top: -367px;
+        margin-right: 0px;
+    }
+
+    .onlineuserwindow{
+        height: 80px;
+    }
+
+    #historyshow{
+        margin-left: -40px;
+        margin-top: 290px;
+        width: 280px;
+        
+    }
+
+    .historysection{
+        margin-left: -40px;
+        margin-top: 280px;
+    }
+
+    #historyfilter{
+        width: 280px;
+    }
+
+    #hidehistory{
+        width: 280px;
+    }
+
+    #historyfeed{
+        width: 280px;
+        height: 100px;
+    }
+
+}
+    
+    
+    
+ 
